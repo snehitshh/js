@@ -68,7 +68,7 @@ const enableBoxes=()=>{                //resets the buttons after one winner - f
     }
 
 const showWinner=(winner)=>{
-    msg.innerText=`congratulations,aap jeet gaye hai ${winner}`;
+    msg.innerText=`congratulations ${winner},you have won the game`;
     msgContainer.classList.remove("hide");
     disableBoxes();
 }
