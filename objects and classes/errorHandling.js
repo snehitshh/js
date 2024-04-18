@@ -10,5 +10,5 @@ catch(err){                //handle errors
 console.log(err);
 }
 
-console.log(a-b);  //these lines will not be printed
+console.log(a-b);  //these lines will not be printed if there is an error and therefore error handling used
 console.log(a*b);
